@@ -1,0 +1,81 @@
+.active {
+    color: #FD0C0C;
+}
+
+header a:hover {
+    color: #FD0C0C;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    background-image: url('../img/wepik-monocolor-gradient-techno-bl-business-card-20231111122604nw9v.png');
+    background-size: 4em;
+    background-color: aliceblue;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    box-shadow: 12px 12px 20px gray;
+    z-index: 100;
+}
+
+/*-----*/
+/* header {
+    background: 0;
+    box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.386);
+}
+
+header a {
+    color: aliceblue;
+}
+
+path {
+    stroke: aliceblue;
+}
+
+header a:hover {
+    color: #82C2FD;
+}
+
+a.logos:hover path {
+    stroke: #82C2FD;
+}
+
+a.active {
+    color: #82C2FD;
+}
+
+----- */
+
+header a {
+    color: #1e1e1e;
+}
+
+.logos {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-nav a {
+    margin: 0 .3em;
+}
+
+svg {
+    height: 90px;
+    width: 90px;
+}
+
+path {
+    stroke: #1e1e1e;
+    fill: none;
+}
+
+a.logos:hover path {
+    stroke: #FD0C0C;
+}
